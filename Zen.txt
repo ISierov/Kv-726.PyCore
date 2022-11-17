@@ -1,10 +1,10 @@
 Zen Of Python
 
-1.Beautiful is better than ugly. (nikita)
+1.
 2.
 3.
 4.
-5.
+5. Beautiful is better than ugly. (nikita)
 6.
 7.
 8.
