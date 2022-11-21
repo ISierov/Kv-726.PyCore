@@ -3,7 +3,7 @@ Zen Of Python
 
 1.Beautiful is better than ugly.(Danylo)
 2. Explicit is better than implicit.
-3.
+3. Simple is better than complex.
 4.1711
 5. Beautiful is better than ugly. (nikita)
 6.
