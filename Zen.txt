@@ -5,7 +5,7 @@ Zen Of Python
 3. Simple is better than complex.
 4.1711
 5. Beautiful is better than ugly. (nikita)
-6.
+6.Sparse is better than dense.(Maria)
 7.
 8.
 9.
