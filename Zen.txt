@@ -6,7 +6,7 @@ Zen Of Python
 4. 1711
 5. Beautiful is better than ugly. (nikita)
 6. Sparse is better than dense.(Maria1)
-7.
-8.
+7. Readability counts.
+8. Special cases aren't special enough to break the rules.
 9.
 10.
