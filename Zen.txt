@@ -9,4 +9,4 @@ Zen Of Python
 7. Readability counts.
 8. Special cases aren't special enough to break the rules. (Max)
 9. Although practicality beats purity. 
-10.
+10. ///////
