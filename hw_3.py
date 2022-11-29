@@ -31,6 +31,11 @@ for digit in number:
         print('Symbol <', digit, '> is not a number.')
         goodNumberFlag = False
 
+if goodNumberFlag and int(number) < 0 and int(number) > 9999:
+    goodNumberFlag = False
+    print('Число не відповідає вимогам')
+    
+
 if goodNumberFlag:
 # 2.a. Знайти добуток цифр цього числа
     mult = 1
@@ -49,7 +54,7 @@ if goodNumberFlag:
     print('Відсортовані цифри числа ', "".join(n))
 
 # 3. Поміняти між собою значення двох змінних, не використовуючи третьої змінної
-a = input('Введіть число A: ')
-b = input('Введіть число B: ')
+a = input('Введіть значення змінної A: ')
+b = input('Введіть значення змінної B: ')
 a, b = b, a
 print('Значення змінних поміняно: A = ', a, ' B = ', b)
