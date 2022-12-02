@@ -99,3 +99,23 @@ arr = [1, 2, 4, 5, 10]
 # n = s1.pop()
 # print(s1)
 # print(n)
+
+# d = {1: [1234, 145], 2: 0, 3: 0, 5: 'name'}
+#
+# print(id(d[2]), id(d[3]))
+
+# d = {'name': 'Vasyl', 'surname': 'Bilan', 'id': '1', 'task': 'run application'}
+# for key in d:
+#     print("student {} = {}".format(key, d[key]))
+# for key, val in d.items():
+#     print("{} = {} .".format(key, val))
+# for key in d.keys():
+#     print("student {} = {}".format(key, d[key]))
+# for val in d.values():
+#     print("student {} = {}".format("?", val))
+
+# odd_squares = {x: x * x for x in range(11) if x % 2 == 1}
+# print(odd_squares)
+#
+# odd = (2 ** x for x in range(10))
+# print(tuple(odd))
