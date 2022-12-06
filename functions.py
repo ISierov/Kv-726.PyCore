@@ -1,12 +1,12 @@
-# def greet(name):
-#     """
-#     Greeting function
-#     :param name: name of someone
-#     :return: Nothing
-#     """
-#     print(f'Hello, {name}. How are you?')
-#     return
-#
+def greet(name):
+    """
+    Greeting function
+    :param name: name of someone
+    :return: Nothing
+    """
+    print(f'Hello, {name}. How are you?')
+    return
+
 # greet('Ivan')
 
 # greet('Andrii')
