@@ -1,6 +1,6 @@
 import pyowm
 
-OWM_API_key = pyowm.OWM('26ba7b8ee9b16c72a279e4b785a5ff02')
+OWM_API_key = pyowm.OWM('YOUR_KEY')
 
 my_city = input()
 
