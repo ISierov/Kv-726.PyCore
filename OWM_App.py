@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import font
 from pyowm import OWM
 
-API_KEY = '2858565194a7fae9f21d0cf1c47d63a2'
+API_KEY = 'there is an API key'
 
 
 def weather_response(input_city):
