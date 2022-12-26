@@ -131,3 +131,26 @@ if __name__ == '__main__':
     for item in animals:
         print("{} >>> {}".format(item, ht.double_char(item)))
 
+    headline(" 22. Regular Ball Super Ball ")
+    ball1 = ht.Ball()
+    ball2 = ht.Ball('super')
+    print(ball1.type)
+    print(ball2.type)
+
+    headline(" 23. Color Ghost ")
+    gh1 = ht.Ghost()
+    gh2 = ht.Ghost()
+    gh3 = ht.Ghost()
+    print(gh1.color)
+    print(gh2.color)
+    print(gh3.color)
+
+    headline(" 24. Basic subclasses - Adam and Eve ")
+    humans = [ht.Man('Adam'), ht.Woman('Eve')]
+    print(humans)
+    print("humans: {}, {}".format(humans[0].name, humans[1].name))
+
+    headline(" 25. Classy Classes ")
+    per = ht.Person('John', 34)
+    print(per.info)
+

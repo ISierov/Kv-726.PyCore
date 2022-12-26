@@ -1,3 +1,6 @@
+import random
+
+
 def next_palindromic_number(val):
     """
     Search the next palindromic number for the given number
@@ -159,3 +162,34 @@ def double_char(s):
 # From the codewars.com
 def double_char_codewars(s):
     return ''.join(c * 2 for c in s)
+
+
+class Ball:
+    def __init__(self, b_type='regular'):
+        self.type = b_type
+
+
+class Ghost:
+    def __init__(self):
+        self.color = random.choice(["white", "yellow", "purple", "red"])
+
+
+class Human:
+    def __init__(self, name):
+        self.name = name
+
+
+class Man(Human):
+    def __init__(self, name):
+        Human.__init__(self, name)
+
+
+class Woman(Human):
+    def __init__(self, name):
+        Human.__init__(self, name)
+
+
+class Person:
+    def __init__(self, name, age):
+        self.info = "{}s age is {}".format(name, age)
+
