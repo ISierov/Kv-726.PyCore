@@ -19,10 +19,10 @@ r = ('If the implementation is hard to explain, its a bad idea.')
 s = ('Namespaces are one honking great idea -- lets do more of those!')
 zen = a+b+c+d+e+f+g+h+i+j+k+l+m+o+p+q+r+s
 print (str(zen))
-print(zen.count('better'))
-print(zen.count('never'))
-print(zen.count('is'))
-print(zen.upper())
+# print(zen.count('better'))
+# print(zen.count('never'))
+# print(zen.count('is'))
+# print(zen.upper())
 change = zen
 old_letter = 'i'
 new_letter = '&'
@@ -45,11 +45,14 @@ print(n2)
 
 
 
-hades=input('Enter your number:').split()
-for i in range(len(hades)):
-    hades[i] = int(hades[i])
-hades.sort()
-print(*hades)
+# hades=input('Enter your number:').split()
+# for i in range(len(hades)):
+#     hades[i] = int(hades[i])
+# hades.sort()
+# print(*hades)
+hades = '6578'
+hades_list = list(hades)
+print(hades_list)
 # TASK33333333333333333333333333333333333333333333333333333
 a = input('a =')
 b = input ('b =')
